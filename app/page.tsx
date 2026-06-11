@@ -111,14 +111,6 @@ Reactive Network Lasna (Chain 5318007)
     _handlePositionExited()      ← Updates LP status
     _handlePositionReentered()   ← Resets LP tracking
     _handleManualExit()          ← Removes LP from tracking`}</pre>
-
-      <div className="not-prose mt-8 p-4 rounded-lg border bg-muted/50">
-        <p className="text-sm text-muted-foreground">
-          <strong>Event:</strong> Uniswap Hook Incubator 9 (UHI9) Hookathon ·
-          <strong> Theme:</strong> Impermanent Loss &amp; Yield Systems ·
-          <strong> Demo Day:</strong> June 19, 2026
-        </p>
-      </div>
     </div>
   );
 }
