@@ -21,7 +21,7 @@ forge install`}</pre>
 # Fill in your private keys and RPC URLs`}</pre>
 
       <h2>Run Tests</h2>
-      <p>All 54 tests pass, covering unit, integration, and fuzz testing:</p>
+      <p>All tests pass, covering unit, integration, and fuzz testing:</p>
       <pre>{`forge test -vv`}</pre>
 
       <h2>Deploy to Unichain Sepolia</h2>

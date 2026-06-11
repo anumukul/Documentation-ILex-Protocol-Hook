@@ -3,15 +3,13 @@ export default function TestsPage() {
     <div className="prose prose-gray dark:prose-invert max-w-none">
       <h1>Test Suite</h1>
       <p>
-        All 54 tests pass across 4 test files, covering unit tests, integration
+        All tests pass across 4 test files, covering unit tests, integration
         tests, and fuzz testing. The tests use Forge&apos;s standard library,
         Uniswap v4&apos;s <code>Deployers</code> helper, and
         <code>reactive-test-lib</code> for RSC simulation.
       </p>
 
-      <pre>{`forge test -vv
-
-Ran 54 tests: 54 passed, 0 failed`}</pre>
+      <pre>{`forge test -vv`}</pre>
 
       <h2>Test Breakdown</h2>
 

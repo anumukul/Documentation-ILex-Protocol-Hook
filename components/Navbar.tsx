@@ -1,3 +1,4 @@
+import { Shield } from "lucide-react";
 import Link from "next/link";
 
 export function Navbar() {
@@ -5,7 +6,7 @@ export function Navbar() {
     <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="flex h-14 items-center px-6 gap-6">
         <Link href="/" className="flex items-center gap-2 font-semibold text-lg">
-          <span className="text-primary">◆</span>
+          <Shield className="h-6 w-6 text-primary" />
           <span>ILex Protocol</span>
         </Link>
         <span className="text-sm text-muted-foreground hidden sm:inline">
