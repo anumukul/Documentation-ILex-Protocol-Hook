@@ -3,6 +3,18 @@ export default function DeploymentPage() {
     <div className="prose prose-gray dark:prose-invert max-w-none">
       <h1>Deployment Guide</h1>
 
+      <h2>Deployed Contracts</h2>
+      <table>
+        <thead>
+          <tr><th>Contract</th><th>Address</th><th>Chain</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>ILexHook</strong></td><td><code>0x4c296AddD2cb9ab50703804a1E2aE05809084040</code></td><td>Unichain Sepolia (1301)</td></tr>
+          <tr><td><strong>ILexReactive</strong></td><td><code>0x242EcB8f8dD56b2163fE086b91AbB5eF8f6fC2e9</code></td><td>Reactive Lasna (5318007)</td></tr>
+        </tbody>
+      </table>
+      <p><em>ILMath is an inlined library — no separate deployment.</em></p>
+
       <h2>Network Setup</h2>
       <pre>{`# .env configuration
 UNICHAIN_SEPOLIA_RPC=https://sepolia.unichain.org
